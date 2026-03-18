@@ -1,20 +1,20 @@
 // let serve para criar uma variável
 
-let numUm;
-let numDois;
-let result;
+let numUmSoma;
+let numDoisSoma;
+let resultSoma;
 
 //  Number faz o carácter ser lido como número
 //  prompt faz aparecer uma caixa de texto para o usuário inserir os números desejados
 
-numUm = Number(prompt("Digite o primeiro número:"));
-numDois = Number(prompt("Digite o segundo número:"));
+numUmSoma = Number(prompt("Digite o primeiro número:"));
+numDoisSoma = Number(prompt("Digite o segundo número:"));
 
-//result é a soma das variáveis numUm + numDois
+//resultSoma é a soma das variáveis numUmSoma + numDoisSoma
 
-result = numUm + numDois;
+resultSoma = numUmSoma + numDoisSoma;
 
 // alert serve para exibir uma menagem na tela do usuário
 // toFixed serve para definir o número de casas decimais 
 
-alert(`O soma dos dois números é ${result.toFixed(2)}`);
+alert(`O soma dos dois números é ${resultSoma.toFixed(2)}`);
