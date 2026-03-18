@@ -15,5 +15,6 @@ numDois = Number(prompt("Digite o segundo número:"));
 result = numUm + numDois;
 
 // alert serve para exibir uma menagem na tela do usuário
+// toFixed serve para definir o número de casas decimais 
 
 alert(`O soma dos dois números é ${result.toFixed(2)}`);
