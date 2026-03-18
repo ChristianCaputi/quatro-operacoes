@@ -4,7 +4,7 @@ let numUmMultiplicacao;
 let numDoisMultiplicacao; 
 let resultadoMultiplicacao; //resultado da multiplicação
 
-// Para realizar a multiplicação vamos utilizar dois números
+// Para realizar a multiplicação vamos utilizar dois números ditados pelo usuario
 
 numUmMultiplicacao = Number(prompt("Insira o primeiro número que deseja multiplicar"));
 numDoisMultiplicacao = Number(prompt("Agora, insira o segundo numero para multiplicarmos"));
