@@ -1,4 +1,4 @@
-alert("Vamos brincar com as 4 operações?");
+alert("Vamos brincar com as 4 operações matemáticas?");
 
 
 alert("Que tal começar multiplicando dois números?");
@@ -52,4 +52,4 @@ resultadoSubtracao = numUmSubtracao - numDoisSubtracao;
 
 //"tofixed" é uma ferramenta ultilizada para delimitar a quantidade de casas decimais do resultado. O número entre parênteses é essa quantidade de casas decimais.
 
-    alert(`O resultado da subtração dos dois números desejados é: ${resultadoSubtracao.tofixed(2)}!`);
+    alert(`O resultado da subtração dos dois números desejados é: ${resultadoSubtracao.toFixed(2)}!`);
