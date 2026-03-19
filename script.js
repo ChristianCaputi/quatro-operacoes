@@ -1,4 +1,7 @@
-alert("Vamos multiplicar dois números?");
+alert("Vamos brincar com as 4 operações?");
+
+
+alert("Que tal começar multiplicando dois números?");
 
 let numUmMultiplicacao;
 let numDoisMultiplicacao; 
@@ -12,7 +15,7 @@ resultadoMultiplicacao = numUmMultiplicacao*numDoisMultiplicacao;
 
 alert(`Multiplicando esses dois números, obtemos o resultado ${resultadoMultiplicacao.toFixed(2)}`);
 
-alert("Agora, vamos multiplicar dois numeros?")
+alert("Agora, vamos somar dois numeros?");
 // let serve para criar uma variável
 
 let numUmSoma;
@@ -33,3 +36,20 @@ resultSoma = numUmSoma + numDoisSoma;
 // toFixed serve para definir o número de casas decimais 
 
 alert(`O soma dos dois números é ${resultSoma.toFixed(2)}`);
+
+alert("E que tal subtrairmos números?");
+
+
+let numUmSubtracao; //A variável não foi nomeada apenas como "numUm" para que não ocorra conflitos ao ultilizar o "Merge"
+let numDoisSubtracao;
+let resultadoSubtracao; // Resultado da subtração
+
+//As variáveis "nuUmSubtracao" e "numDoisSubtracao" foram definidas na linguagem Camel Case e representam os dois números da subtração. 
+
+numUmSubtracao = Number(prompt("Por favor, insira o primeiro número da subtração"));
+numDoisSubtracao = Number(prompt("Por fim, insira o segundo número da subtração"));
+resultadoSubtracao = numUmSubtracao - numDoisSubtracao;
+
+//"tofixed" é uma ferramenta ultilizada para delimitar a quantidade de casas decimais do resultado. O número entre parênteses é essa quantidade de casas decimais.
+
+    alert(`O resultado da subtração dos dois números desejados é: ${resultadoSubtracao.tofixed(2)}!`);
