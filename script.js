@@ -10,11 +10,12 @@ let resultadoMultiplicacao;
 
 numUmMultiplicacao = Number(prompt("Insira o primeiro número que deseja multiplicar"));
 numDoisMultiplicacao = Number(prompt("Agora, insira o segundo numero para multiplicarmos"));
-resultadoMultiplicacao = numUmMultiplicacao*numDoisMultiplicacao;
+resultadoMultiplicacao = numUmMultiplicacao * numDoisMultiplicacao;
 
 alert(`Multiplicando esses dois números, obtemos o resultado ${resultadoMultiplicacao.toFixed(2)}`);
 
 alert("Agora, vamos somar dois numeros?");
+
 // let serve para criar uma variável
 
 let numUmSoma;
