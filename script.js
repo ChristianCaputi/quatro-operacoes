@@ -4,14 +4,14 @@ alert("Vamos brincar com as 4 operações matemáticas?");
 alert("Que tal começar multiplicando dois números?");
 
 let numUmMultiplicacao;
-let numDoisMultiplicacao; 
+let numDoisMultiplicacao;
 let resultadoMultiplicacao; //resultado da multiplicação
 
 // Para realizar a multiplicação vamos utilizar dois números ditados pelo usuario
 
 numUmMultiplicacao = Number(prompt("Insira o primeiro número que deseja multiplicar"));
 numDoisMultiplicacao = Number(prompt("Agora, insira o segundo numero para multiplicarmos"));
-resultadoMultiplicacao = numUmMultiplicacao*numDoisMultiplicacao;
+resultadoMultiplicacao = numUmMultiplicacao * numDoisMultiplicacao;
 
 alert(`Multiplicando esses dois números, obtemos o resultado ${resultadoMultiplicacao.toFixed(2)}`);
 
@@ -52,8 +52,8 @@ resultadoSubtracao = numUmSubtracao - numDoisSubtracao;
 
 //"tofixed" é uma ferramenta ultilizada para delimitar a quantidade de casas decimais do resultado. O número entre parênteses é essa quantidade de casas decimais.
 
-    alert(`O resultado da subtração dos dois números desejados é: ${resultadoSubtracao.toFixed(2)}!`);
+alert(`O resultado da subtração dos dois números desejados é: ${resultadoSubtracao.toFixed(2)}!`);
 
-    //Colocamos as perguntas para deixar a mudança entre operações mais fluida
+//Colocamos as perguntas para deixar a mudança entre operações mais fluida
 
-    alert("Por fim, vamos aplicar a divisão em dois números?");
+alert("Por fim, vamos aplicar a divisão em dois números?");
