@@ -54,5 +54,17 @@ resultadoSubtracao = numUmSubtracao - numDoisSubtracao;
 alert(`O resultado da subtração dos dois números desejados é: ${resultadoSubtracao.toFixed(2)}!`);
 
 //Colocamos as perguntas para deixar a mudança entre operações mais fluida
+ 
+alert("Por fim, vamos aplicar a divisão em dois números?");
 
-alert("Por fim, vamos aplicar a divisão em dois números?"); 
+let numUmDivisao;
+let numDoisDivisao;
+let resultadoDivisao;
+
+numUmDivisao = Number(prompt("Por favor insira o primeiro número da divisao"));
+numDoisDivisao = Number(prompt("Por favor insira o segundo número da divisao"));
+resultadoDivisao = numUmDivisao / numDoisDivisao;
+
+alert(`A divisao dos números é igual a ${resultadoDivisao.toFixed(2)}`);
+
+alert("Nossa jornada pelas quatro operações chegou ao fim! Obrigado")
