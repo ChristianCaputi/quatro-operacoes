@@ -53,3 +53,7 @@ resultadoSubtracao = numUmSubtracao - numDoisSubtracao;
 //"tofixed" é uma ferramenta ultilizada para delimitar a quantidade de casas decimais do resultado. O número entre parênteses é essa quantidade de casas decimais.
 
     alert(`O resultado da subtração dos dois números desejados é: ${resultadoSubtracao.toFixed(2)}!`);
+
+    //Colocamos as perguntas para deixar a mudança entre operações mais fluida
+
+    alert("Por fim, vamos aplicar a divisão em dois números?");
