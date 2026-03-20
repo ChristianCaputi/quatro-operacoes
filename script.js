@@ -15,7 +15,6 @@ resultadoMultiplicacao = numUmMultiplicacao * numDoisMultiplicacao;
 alert(`Multiplicando esses dois números, obtemos o resultado ${resultadoMultiplicacao.toFixed(2)}`);
 
 alert("Agora, vamos somar dois numeros?");
-
 // let serve para criar uma variável
 
 let numUmSoma;
