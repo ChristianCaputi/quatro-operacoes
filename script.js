@@ -5,7 +5,7 @@ alert("Que tal começar multiplicando dois números?");
 
 let numUmMultiplicacao;
 let numDoisMultiplicacao; 
-let resultadoMultiplicacao; //resultado da multiplicação
+let resultadoMultiplicacao; 
 
 // Para realizar a multiplicação vamos utilizar dois números ditados pelo usuario
 
@@ -42,7 +42,7 @@ alert("E que tal subtrairmos números?");
 
 let numUmSubtracao; //A variável não foi nomeada apenas como "numUm" para que não ocorra conflitos ao ultilizar o "Merge"
 let numDoisSubtracao;
-let resultadoSubtracao; // Resultado da subtração
+let resultadoSubtracao; 
 
 //As variáveis "nuUmSubtracao" e "numDoisSubtracao" foram definidas na linguagem Camel Case e representam os dois números da subtração. 
 
